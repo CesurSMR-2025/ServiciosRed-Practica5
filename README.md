@@ -179,3 +179,6 @@ Un pdf con las siguientes capturas:
 - server.js de Node.js
 
 Debereis desplegar la página de Apache en el puerto 9000 y la de Node.js en el puerto 10000.
+
+
+**NOTA IMPORTANTE**: El adaptador puente puede no funcionar correctamente en algunas redes, especialmente en redes Wi-Fi con ciertas configuraciones de seguridad. Si tenéis este problema, podeis utilizar un adaptador de tipo "solo anfitrión" (Host-Only), pero en este caso, solo podréis acceder a los servidores web desde la máquina host y no desde otras máquinas en la misma red.
