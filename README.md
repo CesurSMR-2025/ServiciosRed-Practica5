@@ -11,6 +11,8 @@ Ademas de esto, en la arquitectura típica de una aplicación web, el servidor w
 ## Descripción de la Práctica
 En esta práctica nos vamos a crear y desplegar un servidor web básico utilizando primero  **Apache HTTP Server** y luego lo mismo con **Node.js + Express**. Despues nos conectaremos a ambos servidores desde un navegador web en la máquina host.
 
+Apache y Node.js + Express, son junto con Nginx, los servidores web mas utilizados en la actualidad con bastante diferencia con el resto. Node es ademas, utilizado como servidor de aplicaciones en muchas aplicaciones web modernas.
+
 ### Preparación del Entorno
 Ambas partes de la práctica la haremos en máquinas virtuales Debian. Necesitaremos dos máquinas virtuales separadas, una para cada servidor web. Yo las llamare **VM-Apache** y **VM-Node**.
 
