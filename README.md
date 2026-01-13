@@ -17,6 +17,7 @@ Apache y Node.js + Express, son junto con Nginx, los servidores web mas utilizad
 Ambas partes de la práctica la haremos en máquinas virtuales Debian. Necesitaremos dos máquinas virtuales separadas, una para cada servidor web. Yo las llamare **VM-Apache** y **VM-Node**.
 
 En ambas máquinas virtuales deberemos:
+
 - No tocar el adaptador 1 (NAT) para tener acceso a internet.
 - Configurar el adaptador 2 en modo "Bridge" (Puente) para que ambas máquinas estén en la misma red que la máquina host. De esta forma podremos acceder a los servidores web desde el navegador de la máquina host o desde otras máquinas en la misma red. Este adaptador, al estar en modo puente, se configurará automáticamente a través del servidor DHCP del router.
 - Crear un usuario con nuestro nombre y darle permisos de administrador metiendolo en el grupo "sudo".
