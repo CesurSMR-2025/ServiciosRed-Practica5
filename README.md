@@ -6,7 +6,7 @@ El **servidor web** solamente atiende las solicitudes HTTP, mientras que el **se
 
 En algunos casos, el servidor web y el servidor de aplicaciones pueden estar integrados en un solo software (como Node.js), pero son conceptos distintos.
 
-Ademas de esto, en la arquitectura típica de una aplicación web, el servidor web puede interactuar con otros componentes como bases de datos, servicios externos, etc.
+Ademas de esto, en la arquitectura típica de una aplicación web, el servidor de aplicaciones puede interactuar con otros componentes como bases de datos, servicios externos, etc.
 
 ## Descripción de la Práctica
 En esta práctica nos vamos a crear y desplegar un servidor web básico utilizando primero  **Apache HTTP Server** y luego lo mismo con **Node.js + Express**. Despues nos conectaremos a ambos servidores desde un navegador web en la máquina host.
