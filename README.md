@@ -1,4 +1,4 @@
-# Servicios en Red - Práctica 6: Servidores Web
+# Servicios en Red - Práctica 5: Servidores Web
 ## Recordatorio de Teoría
 En una aplicación/página web, el **cliente** es el navegador web (como Chrome, Firefox, etc.) que realiza solicitudes HTTP para obtener recursos (páginas HTML, imágenes, scripts, etc.) a un **servidor web**. El servidor web es un software que escucha las solicitudes entrantes en un puerto específico (generalmente el puerto 80 para HTTP y el puerto 443 para HTTPS) y responde enviando los recursos solicitados al cliente. 
 
